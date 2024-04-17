@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+ <div class="swiper-main_wrapper">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/supra red.jpeg" alt="supra">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Supra Mk4
+                </h2>
+                <span>Poyga Mashinasi</span>  <br><br>
+                <a href="https://www.toyota.com/grsupra/">$1,000,000</a>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/ferrari.jpeg" alt="Porshe-911">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Supra mk5 
+                </h2>
+                <span>Poyga Mashina</span>  <br><br>
+                <a href="https://www.toyota.com/grsupra/">$1,000,000</a>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/supra.jpeg" alt="mersades-amg-gt">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Supra mk5 red
+                </h2>
+                <span>Poyga Mashinasi</span>  <br><br>
+                <a href="https://www.toyota.com/grsupra/">$4,000,000</a>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/4k-drift-neon-lights-toyota-supra-wallpaper-preview.jpg" alt="BMW_M5_F90">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Supra Mk4
+                </h2>
+                <span>Poyga Mashinasi</span>  <br><br>
+                <a href="https://www.toyota.com/grsupra/">$2 000,000</a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      navigation: {
+
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        
+      },
+    });
+  </script>
+</body>
+
+</html>
